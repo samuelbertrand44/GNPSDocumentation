@@ -41,7 +41,7 @@ The .mzXML or .mzML formats are strongly preferred and will be discussed below.
 | Bruker | DataAnalysis/Compass      |   .d | CompassXport | This conversion is through the DataAnalysis software |
 | ThermoFisher | Xcalibur      |    .raw/.RAW | MSConvert | verified |
 | Waters | MassLynx      |    .raw | MSConvert is for full scan/DDA datasets. [Symphony](http://www.waters.com/waters/en_US/informatics,-data_pipeline/nav.htm?cid=134893896&locale=en_US) is for other modes such as MSe/SONAR/HDMSe/HD-DDA | See more informations about the procedure in [this Water Technology Brief](https://www.waters.com/webassets/cms/library/docs/720006415en.pdf) |
-| Shimadzu | | .lcd | MSConvert | |
+| Shimadzu | | .lcd | MSConvert (low resolution) or mergeCDF2MZxml (high resolution, https://gitlab.univ-nantes.fr/bertrand-s-1/mergecdf2mzxml)| |
 
 For problems with MSConvert, please contact the ProteoWizard [developers](http://proteowizard.sourceforge.net/contact.shtml).
 
